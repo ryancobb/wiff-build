@@ -1,0 +1,65 @@
+.body {
+  position: relative; }
+
+.affix {
+  top: 0;
+  left: 0;
+  z-index: 9999 !important; }
+
+.affix ~ .container-fluid {
+  position: relative;
+  top: 50px; }
+
+.nav-pills {
+  margin-bottom: 0px;
+  background-color: #83C3D1;
+  color: white; }
+  .nav-pills li a {
+    color: inherit;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
+    border-radius: 0; }
+    .nav-pills li a:hover {
+      transition: all .2s ease-in;
+      background-color: #337ab7; }
+
+.jumbotron {
+  background-color: #6CBD9C;
+  min-height: 300px;
+  margin-bottom: 0; }
+  .jumbotron h1 {
+    color: #E6007E;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 7em; }
+
+#about {
+  background-color: #E6007E; }
+
+#tickets {
+  background-color: #83C3D1; }
+
+#map {
+  background-color: #DAE06A; }
+
+#vendors {
+  background-color: #6CBD9C; }
+
+.footer {
+  background-color: #E6007E;
+  color: white; }
+
+.header {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  color: white; }
+
+.section p {
+  padding-bottom: 20px; }
+
+.footer {
+  padding: 50px;
+  padding-bottom: 200px;
+  font-size: .75em; }
